@@ -1,6 +1,6 @@
 # Apple Health Workout Simple Dashboard 🏃‍♂️📊
 
-An interactive dashboard for visualizing **Walkin & Running data** extracted from **Apple Health**, built using **Django** and **Dash Plotly**.
+An interactive dashboard for visualizing **Walking & Running data** extracted from **Apple Health**, built using **Django** and **Dash Plotly**.
 
 ## 🔍 Overview
 
