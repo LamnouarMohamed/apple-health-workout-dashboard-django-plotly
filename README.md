@@ -26,20 +26,41 @@ This project provides a web-based interface to filter and explore health data (e
 - Apple Health XML
 
 ## 🚀 Getting Started
-
-1. **Clone the repo:**
+0. **How to Export Your Data from Apple Health:**
+   - Open the Health app on your iPhone.
+   - Tap your profile icon in the top-right corner.
+   - Scroll down and select Export All Health Data.
+   - Confirm the export — your iPhone will generate a .zip file.
+   - Share the exported .zip file to your computer (via AirDrop, iCloud, or email).
+   - Unzip the file — inside, you’ll find:
+     * export.xml — the main file containing your health records.
+     * Additional folders (e.g., electrocardiograms/, workouts/, etc.)
+   - Place the export.xml file (or relevant CSV/XML files) in your project’s directory:
+                <pre> 
+                    sport/ 
+                    │ 
+                    ├── data/ 
+                    │   └── export.xml 
+                </pre>
+1. **Load Apple Health Data into the Database :**
+```
+python manage.py populate_db
+```
+2. **Clone the repo:**
 
 ```bash
 git clone https://github.com/LamnouarMohamed/apple-health-workout-dashboard-django-plotly.git
 ```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
 
 ```
 pip install -r requirements.txt
 ```
 
-3. **Run the Django server:**
+4. **Run the Django server:**
 ```
 python manage.py runserver
 ```
+
+
