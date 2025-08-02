@@ -1,0 +1,6 @@
+Django
+django_plotly_dash
+django_extensions
+numpy
+plotly
+pandas
