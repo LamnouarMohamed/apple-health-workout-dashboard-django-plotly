@@ -1,5 +1,3 @@
-# apple-health-workout-dashboard-django-plotly
-
 # Apple Health Workout Simple Dashboard 🏃‍♂️📊
 
 An interactive dashboard for visualizing **Walkin & Running data** extracted from **Apple Health**, built using **Django** and **Dash Plotly**.
